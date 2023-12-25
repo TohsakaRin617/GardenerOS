@@ -4,7 +4,8 @@
 extern crate alloc;
 use core::arch::global_asm;
 #![feature(alloc_error_handler)]
-
+#[macro_use]
+extern crate bitflags;
 #[macro_use]
 mod console;
 mod lang_items;
