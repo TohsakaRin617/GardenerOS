@@ -219,7 +219,6 @@ impl MemorySet {
     }
 
     pub fn recycle_data_pages(&mut self) {
-        //*self = Self::new_bare();
         self.areas.clear();
     }
 }
